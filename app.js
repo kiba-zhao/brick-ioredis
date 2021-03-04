@@ -32,4 +32,4 @@ function factory(engine) {
   return clients;
 }
 
-inject(factory, { name: IOREDIS, deps: [ENGINE] });
+inject(factory, { name: IOREDIS, deps: [ ENGINE ] });

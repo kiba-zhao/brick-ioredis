@@ -58,7 +58,7 @@ module.exports = Simple;
 // 同等于 this.redis = clients.default;
 redis(Simple);
 // 同等于 this.redis1 = clients.client1;
-logger(Simple,{name:'client1',property:'redis1'});
+redis(Simple,{name:'client1',property:'redis1'});
 
 ```
 
