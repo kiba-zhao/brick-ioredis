@@ -6,8 +6,6 @@
  */
 'use strict';
 
-const { ENGINE } = require('brick-engine');
-
-exports[ENGINE] = {
+exports.engine = {
   modules: { modules: { patterns: 'modules/**/*.js' } },
 };

@@ -21,7 +21,7 @@ export type redisOpts = {
  * redis连接注入声明函数
  * @param {Any} target 目标对象
  * @param {redisOpts} opts 可选项
- * @returns {Any} 目标对象
+ * @return {Any} 目标对象
  */
 export function redis(target: any, opts: redisOpts): any;
 export function redisGen(dsn: any): {
